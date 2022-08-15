@@ -9,8 +9,11 @@
 	margin:auto;
 	text-align:center;
 }
-h1,h2,h3,h4,a,p,input{
+/*h1,h2,h3,h4,a,p,input{
 	font-family:Gilroy-Regular, sans-serif;
+}*/
+body{
+	font-family:Gilroy-Regular, sans-serif;	
 }
 ul{
 	list-style-type:none;
