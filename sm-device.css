@@ -132,14 +132,15 @@
 		background-position:center;
 		height:350px;
 		width:100%;
-		position:relative;
-		margin-top:50px;
+		/*position:relative;*/
+		margin-top:30px;
 	}
 	.branding{
 		padding:8px 15px;
-		position:relative;
+		/*position:relative;*/
 		transform: scale(0.6);
-		top:-35px;
+		/*top:-35px;*/
+		margin-top:-50px;
 		border:5px solid #000;
 	}
 	.branding h1{

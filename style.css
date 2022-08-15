@@ -107,9 +107,12 @@ header .container{
 .branding{
 	border:8px solid;
 	padding:15px 30px;
-	position:absolute;
+	/*position:absolute;
 	top:-45px;
-	transform:translateX(78%);
+	transform:translateX(78%);*/
+	margin:auto;
+	margin-top:-50px;
+	display:inline-block;
 	background-color:white;
 }
 .branding h1{
