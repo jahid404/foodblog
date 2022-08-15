@@ -20,6 +20,13 @@ a{
 	font-size:20px;
 }
 
+.sidenav{
+	display:none;
+}
+.drawer{
+	display:none;
+}
+
 /*-----header-----*/
 header{
 	margin-top:50px;
@@ -54,22 +61,6 @@ header .container{
 	color:white;
 	border-radius:6px;
 	background-color:#651fff;
-}
-
-/*---branding---*/
-.branding{
-	border:8px solid;
-	padding:15px 30px;
-	position:absolute;
-	top:20px;
-	transform:translateX(82%);
-	z-index:1;
-	background-color:white;
-}
-.branding h1{
-	font-size:42px;
-	text-transform:uppercase;
-	letter-spacing:8px;
 }
 
 /*---follow---*/
@@ -108,8 +99,22 @@ header .container{
 	height:500px;
 	width:100%;
 	position:relative;
-	margin-top:30px;
+	margin-top:60px;
 }
+.branding{
+	border:8px solid;
+	padding:15px 30px;
+	position:absolute;
+	top:-45px;
+	transform:translateX(78%);
+	background-color:white;
+}
+.branding h1{
+	font-size:42px;
+	text-transform:uppercase;
+	letter-spacing:8px;
+}
+
 .section-1 form{
 	display:flex;
 	align-items:center;
@@ -158,13 +163,15 @@ header .container{
 	border-radius:6px;
 	overflow-x:hidden;
 }
+.blog-desc{
+	position:relative;
+}
 .blog-desc,.blogs-desc{
 	text-align:left;
 	margin-left:40px;
 }
 .blog img{
 	width:45%;
-	height:auto;
 }
 .author{
 	display:flex;
@@ -196,7 +203,6 @@ header .container{
 	font-size:22px;
 	line-height:1.4;
 	margin-top:5px;
-	padding-bottom:50px;
 }
 .ratings{
 	display:flex;
@@ -206,6 +212,8 @@ header .container{
 	width:90%;
 	margin:auto;
 	padding:15px 0;
+	position:absolute;
+	bottom:0;
 }
 .views p,.rate p{
 	font-size:20px;
@@ -227,10 +235,10 @@ header .container{
 .all-blogs{
 	margin-top:40px;
 }
-.all-blogs-btn{
+.all-blogs-btn-container{
 	text-align:center;
 }
-.all-blogs-btn button{
+.all-blogs-btn-container button{
 	border:none;
 	color:white;
 	background-color:black;
@@ -246,9 +254,8 @@ header .container{
 }
 .blogs{
 	width:45%;
-	width:100%;
 	display:flex;
-	justify-content:sspace-between;
+	justify-content:space-between;
 }
 .blogs img{
 	width:50%;
@@ -340,6 +347,7 @@ header .container{
 	color:black;
 }
 
+/*-----footer----*/
 footer{
 	margin-top:30px;
 }
